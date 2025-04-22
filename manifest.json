@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Override Extension",
+  "version": "1.0",
+  "description": "Automatically applies CSS override to specific subdomains.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.npr.mykronos.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
