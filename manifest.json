@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Telestaff Dev Indicator",
   "version": "1.0",
-  "description": "Automatically applies a red navigation bar to UKG Telestaff NPR environment sites with '-uat-tsc' in the subdomain, indicating a non-production environment to prevent unintended changes.",
+  "description": "Applies red nav bar to UKG Telestaff NPR '-uat-tsc' sites to mark non-production and prevent unintended changes.",
   "content_scripts": [
     {
       "matches": ["*://*.npr.mykronos.com/*"],
