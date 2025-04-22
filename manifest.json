@@ -1,12 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "CSS Override Extension",
+  "name": "Telestaff Dev Indicator",
   "version": "1.0",
-  "description": "Automatically applies CSS override to specific subdomains.",
+  "description": "Automatically applies a red navigation bar to UKG Telestaff NPR environment sites with '-uat-tsc' in the subdomain, indicating a non-production environment to prevent unintended changes.",
   "content_scripts": [
     {
       "matches": ["*://*.npr.mykronos.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "telestaff-plugin-icon-128.png"
+  }
 }
+
