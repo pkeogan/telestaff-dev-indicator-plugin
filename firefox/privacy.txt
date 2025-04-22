@@ -1,0 +1,5 @@
+CSS Override Extension Privacy Policy
+
+This extension does not collect, store, or share any user data. It only checks the subdomain of the current webpage to apply a CSS style to specific non-production UKG Telestaff NPR sites. No personal information is accessed or processed.
+
+Last updated: April 22, 2025

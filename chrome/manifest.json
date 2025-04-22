@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Telestaff Dev Indicator",
   "version": "1.0",
-  "description": "Applies red nav bar to UKG Telestaff NPR '-uat-tsc' sites to mark non-production and prevent unintended changes.",
+  "description": "Applies red nav bar to UKG Telestaff NPR 'uat-tsc' sites to mark non-production and prevent unintended changes.",
   "content_scripts": [
     {
       "matches": ["*://*.mykronos.com/*"],

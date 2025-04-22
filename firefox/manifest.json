@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Override Extension",
+  "version": "1.0",
+  "description": "This extension automatically applies a distinctive red navigation bar to UKG Telestaff sites in NPR non-production environments, specifically those with '-uat-tsc' in the subdomain, such as 'renofire-uat-tsc.npr.mykronos.com'. The red bar serves as a clear visual indicator to users that they are operating in a testing or staging environment, helping to minimize the risk of accidental changes that could affect production systems. Designed for ease of use, it runs seamlessly without user interaction, ensuring safety and clarity for administrators and testers.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.mykronos.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "css-override-uat-tsc",
+      "strict_min_version": "91.0"
+    }
+  }
+}
